@@ -2,10 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # The first time I used:
 
-Firebase
-ES7 React/Redux/GraphQL/React-Native snippets - VCS extension
-MATERIAL-UI
-
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# The first time I used:
+## The first time I used:
+
+react-currency-format
+firebase
 
 ## Available Scripts
 

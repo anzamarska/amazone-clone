@@ -17,7 +17,6 @@ function Product({ id, title, image, price, rating }) {
         rating: rating,
       },
     });
-    console.log("add to basket", basket, "allPrice", allPrice);
   };
 
   return (

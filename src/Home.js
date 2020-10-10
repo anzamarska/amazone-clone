@@ -41,7 +41,7 @@ function Home() {
             id="4"
             title="Pizza (Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a savory dish of Italian origin consisting of salt in water"
             price={29.22}
-            image="https://lh3.googleusercontent.com/proxy/1A1iu6Am4aa5naw2qrQuSA-vjfYWhhNATl5vXaO0SXacow2DsOyQGwpJttNQKnpZ1aFNqrLht2xrRMIJ5_FO7l_8C0FEmI5sAQfSVmaMq1ZtQ6d13Fwk"
+            image="https://cdn.upmenu.com/static/themes/7d0f92b9-94c6-11e8-9795-525400841de1/assets-190/food-1.png"
             rating={3}
           />
           <Product

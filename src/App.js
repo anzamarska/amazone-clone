@@ -3,22 +3,29 @@ import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from "./Checkout";
+import Login from "./Login";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        
+
         <Switch>
+        <Route path="/login">
+             <Login/>
+          </Route>
+
           <Route path="/checkout">
             {/* thats mean "when im on that path show me this components:" */}
             <Header />
             <Checkout />
           </Route>
+
           <Route path="/">
-            {/* thats mean "when im on that path show me this components:" */}
-            <Header />
-            <Home />
+          <Header />
+          <Home />
           </Route>
         </Switch>
       </div>

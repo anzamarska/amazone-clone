@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## The first time I used:
 
 react-currency-format
-firebase
+firebase (user authentication with Firebase)
 
 ## Available Scripts
 

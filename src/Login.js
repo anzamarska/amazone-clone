@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './Login.css'
 import { Link, useHistory } from "react-router-dom";
 import {auth} from "./firebase";
+import { initialState } from './reducer';
 
 function Login() {
     const history = useHistory();
@@ -13,11 +14,11 @@ function Login() {
 
         auth
         .signInWithEmailAndPassword(email, password)
-        .then(auth=>{
+        .then(auth =>{
                 history.push('/') //if the sign in process goes right its change the site to main
             })
         .catch(error => alert(error.message));
-
+        console.log(initialState);
     }
     
     const register = e => {
@@ -32,7 +33,7 @@ function Login() {
         })
         .catch(error => alert(error.message));
 
-    
+        console.log(initialState);
     }
 
     

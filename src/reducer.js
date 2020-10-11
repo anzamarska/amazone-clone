@@ -1,6 +1,9 @@
+import { auth } from "./firebase";
+
 export const initialState = {
   basket: [],
   allPrice: [],
+  user: null,
 };
 
 // selector
@@ -36,6 +39,12 @@ const reducer = (state, action) => {
         return {
           ...state,
           basket: newBasket
+        }
+
+      case "SET_USER":
+        return {
+        ...state,
+        user: action.user
         }
         
       default:

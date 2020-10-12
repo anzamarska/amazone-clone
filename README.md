@@ -6,6 +6,11 @@ react-currency-format
 react-flip-move
 firebase (user authentication with Firebase)
 
+## Deploying / Publishing
+
+https://e-challenge-99ec4.web.app/
+
+
 ## Available Scripts
 
 In the project directory, you can run:

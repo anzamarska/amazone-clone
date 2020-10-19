@@ -6,6 +6,9 @@ react-currency-format
 react-flip-move
 firebase (user authentication with Firebase)
 
+@stripe/stripe-js
+@stripe/react-stripe-js
+
 ## Deploying / Publishing
 
 https://e-challenge-99ec4.web.app/

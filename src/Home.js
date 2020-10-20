@@ -33,7 +33,7 @@ function Home() {
           <Product
             id="3"
             title="If you love a cat with an exotic look but without the size and danger of a wild cat, the Bengal was developed with you in mind."
-            price="little more than you have got in your glass"
+            price={2}
             image="https://vetstreet.brightspotcdn.com/dims4/default/4f4dea1/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F31%2F1ba400a28511e087a80050568d634f%2Ffile%2FBengal-3-645mk062211.jpg"
             rating={5}
           />

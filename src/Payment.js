@@ -8,10 +8,12 @@ import CurrencyFormat from "react-currency-format";
 import  { getBasketTotal } from "./reducer"
 import axios from "./axios";
 
+import { db } from "./firebase";
 
 
 function Payment() {
-    const [{user, basket}, dispatch] = useStateValue();
+    const [{basket,
+         user}, dispatch] = useStateValue();
     const history = useHistory();
     
     const stripe = useStripe();
@@ -37,6 +39,8 @@ function Payment() {
         getClientSecret();
     }, [basket])
 
+    console.log("the client secret>>>", clientSecret)
+
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -50,7 +54,8 @@ function Payment() {
             setSucceeded(true);
             setError(null);
             setProcessing(false);
-            history.replaceState('/orders')
+            
+            history.replace('/orders')
         })
         // in () after then will be "response", i destructurized it in {}
         // paymentIntent = payment confirmation
